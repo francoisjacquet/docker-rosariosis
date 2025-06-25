@@ -89,7 +89,7 @@ RUN cp /usr/local/etc/php/php.ini-production /usr/local/etc/php/php.ini
 RUN a2enmod rewrite
 
 # Download and extract rosariosis
-ENV ROSARIOSIS_VERSION 'v12.3.1'
+ENV ROSARIOSIS_VERSION 'v12.3.2'
 
 # Set the SHELL option -o pipefail before RUN with a pipe in it
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]

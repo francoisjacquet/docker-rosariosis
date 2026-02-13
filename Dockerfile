@@ -14,7 +14,7 @@ ENV DBTYPE=postgresql \
     PGPASSWORD=rosariopwd \
     PGDATABASE=rosariosis \
     PGPORT=5432 \
-    ROSARIOSIS_YEAR=2024 \
+    ROSARIOSIS_YEAR=2025 \
     ROSARIOSIS_LANG='en_US'
 
 # Install postgresql-client, sendmail, nano editor, locales

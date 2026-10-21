@@ -2,8 +2,6 @@
 # sudo docker compose --file docker-compose.yml up -d
 # Update to the latest image:
 # sudo docker compose pull && sudo docker compose up -d
-version: '3.1'
-
 services:
 
   db:

@@ -4,7 +4,7 @@
 # Lint Dockerfile: https://hadolint.github.io/hadolint/
 
 # https://hub.docker.com/_/php/tags?name=apache
-FROM php:8.1-apache-bookworm
+FROM php:8.3-apache-bookworm
 
 LABEL maintainer="François Jacquet <francoisjacquet@users.noreply.github.com>"
 
